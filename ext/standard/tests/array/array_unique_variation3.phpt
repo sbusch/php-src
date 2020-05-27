@@ -21,14 +21,6 @@ unset ($unset_var);
 // get a resource variable
 $fp = fopen(__FILE__, "r");
 
-// get a class
-class classA
-{
-  public function __toString(){
-    return "Class A object";
-  }
-}
-
 // get a heredoc string
 $heredoc = <<<EOT
 Hello world
